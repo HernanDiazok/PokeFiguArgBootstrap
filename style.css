@@ -40,8 +40,8 @@ body {
         flex-direction: column !important;
         margin: auto;
     }
-}
 
+}
 
 
 @media screen and (max-width: 576px){
@@ -49,6 +49,10 @@ body {
         flex-wrap: wrap;
         justify-content: center !important;
     }
+}
+
+.col-6 {
+    width: 100% !important;
 }
 
 
@@ -103,6 +107,14 @@ body {
     position: relative;
 }
 
+#seccion-contacto-page{
+    min-height: 500px;
+    position: relative;
+    background-image: url(./images/648583.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #contenedor-formulario {
     position: absolute;
     top: 30%;
@@ -115,6 +127,10 @@ body {
 
 #titulo-formulario{
     color: #3f3f3f;
+}
+
+#titulo-formulario-contacto{
+    color: #f3f3f3;
 }
 
 footer{
