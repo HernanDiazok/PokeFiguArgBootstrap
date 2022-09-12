@@ -1,0 +1,145 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden; }
+
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f; }
+  #menu li > a #menu form > button {
+    font-size: 18px;
+    font-weight: bold; }
+
+
+#carouselExampleControls{
+  height: 400px;
+}
+
+.carousel-inner {
+  height: 400px;
+  max-height: 42rem; 
+}
+
+@media screen and (max-width: 760px) {
+  #intro, #equipo {
+    width: 90% !important; }
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center; }
+  #bg-contacto {
+    top: -110px; }
+  #productos {
+    flex-direction: column !important;
+    margin: auto; } 
+    #carouselExampleControls{
+      height: 300px;
+    }
+    
+  
+  }
+
+@media screen and (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important; } 
+  
+    #carouselExampleControls{
+      height: 300px;
+    }
+    }
+
+#local {
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center !important; }
+
+.wrapper {
+  margin-left: 50px;
+  padding-top: 50px;
+  text-align: center; 
+
+  
+}
+
+@media screen and (max-width: 1200px) {
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px; }
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px; } }
+
+#numeros-local div {
+  padding: 0 20px 0 0;
+  height: 48px; }
+
+#numeros-local div:not(:last-child) {
+  border-right: 2px solid #3f3f3f; }
+
+#numeros-local div:not(:first-child) {
+  padding-left: 20px; }
+
+#numeros-local p {
+  margin: 0; }
+
+#bg-contacto {
+  position: relative;
+  top: -130px; }
+  #bg-contacto #seccion-contacto {
+    min-height: 500px;
+    position: relative; }
+  #bg-contacto #seccion-contacto-page {
+    min-height: 500px;
+    position: relative;
+    background-image: url(./images/648583.jpg);
+    background-position: center;
+    background-size: cover; }
+
+#contenedor-formulario {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f3f3f3;
+  border-radius: 25px;
+  max-width: 500px; }
+  #contenedor-formulario #titulo-formulario {
+    color: #3f3f3f; }
+  #contenedor-formulario #titulo-formulario-contacto {
+    color: #f3f3f3; }
+
+footer {
+  background-color: #3f3f3f;
+  min-height: 100px; }
+  footer p {
+    color: #f3f3f3;
+    text-align: center; }
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: f3f3f3; }
+
+.container {
+  padding: 30px; }
+  .container .img_container {
+    margin: 1.5rem; }
+
+.producto_img {
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f5f5f5; }
+
+.producto_button button {
+  background-color: #219F94;
+  border-radius: 7px;
+  border: none;
+  color: #f5f5f5;
+  font-size: 1.3rem;
+  padding: 0.5rem 1.5rem; }
+  .producto_button button:hover {
+    background-color: #3f3f3f; }
+
+footer p {
+  color: #f5f5f5; }
