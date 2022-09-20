@@ -1,25 +1,3 @@
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  overflow-x: hidden; }
-
-#menu li > a {
-  font-size: 18px;
-  font-weight: bold;
-  color: #3f3f3f; }
-  #menu li > a #menu form > button {
-    font-size: 18px;
-    font-weight: bold; }
-
-
-#carouselExampleControls{
-  height: 400px;
-}
-
-.carousel-inner {
-  height: 400px;
-  max-height: 42rem; 
-}
-
 @media screen and (max-width: 760px) {
   #intro, #equipo {
     width: 90% !important; }
@@ -30,23 +8,12 @@ body {
     top: -110px; }
   #productos {
     flex-direction: column !important;
-    margin: auto; } 
-    #carouselExampleControls{
-      height: 300px;
-    }
-    
-  
-  }
+    margin: auto; } }
 
 @media screen and (max-width: 576px) {
   .icono-wrap {
     flex-wrap: wrap;
-    justify-content: center !important; } 
-  
-    #carouselExampleControls{
-      height: 300px;
-    }
-    }
+    justify-content: center !important; } }
 
 #local {
   background-color: #f3f3f3;
@@ -56,10 +23,7 @@ body {
 .wrapper {
   margin-left: 50px;
   padding-top: 50px;
-  text-align: center; 
-
-  
-}
+  text-align: center; }
 
 @media screen and (max-width: 1200px) {
   #local {
@@ -96,6 +60,29 @@ body {
     background-position: center;
     background-size: cover; }
 
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden; }
+
+footer {
+  background-color: #3f3f3f;
+  min-height: 100px; }
+  footer p {
+    color: #f5f5f5;
+    text-align: center; }
+  footer .fs-5 {
+    font-size: 1.25rem;
+    color: lightblue !important; }
+  footer .bi {
+    font-size: 30px !important; }
+  footer .bi {
+    font-size: 30px !important; }
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: f3f3f3; }
+
 #contenedor-formulario {
   position: absolute;
   top: 30%;
@@ -109,18 +96,6 @@ body {
   #contenedor-formulario #titulo-formulario-contacto {
     color: #f3f3f3; }
 
-footer {
-  background-color: #3f3f3f;
-  min-height: 100px; }
-  footer p {
-    color: #f3f3f3;
-    text-align: center; }
-
-#iconos i {
-  font-size: 26px;
-  padding: 0 8px;
-  color: f3f3f3; }
-
 .container {
   padding: 30px; }
   .container .img_container {
@@ -131,15 +106,38 @@ footer {
   border-radius: 5px;
   background-color: #f5f5f5; }
 
-.producto_button button {
-  background-color: #219F94;
+.btn, .producto_button-primary, .producto_button-secondary, .producto_button button {
   border-radius: 7px;
   border: none;
-  color: #f5f5f5;
+  font-size: 1.3rem;
   font-size: 1.3rem;
   padding: 0.5rem 1.5rem; }
+
+.producto_button-primary {
+  background-color: blue;
+  color: white; }
+  .producto_button-primary:hover {
+    background-color: #d2423f; }
+
+.producto_button-secondary {
+  background-color: red;
+  color: #f3f3f3; }
+  .producto_button-secondary:hover {
+    background-color: #219F94; }
+
+.producto_button button {
+  background-color: #219F94;
+  color: white; }
   .producto_button button:hover {
     background-color: #3f3f3f; }
 
-footer p {
-  color: #f5f5f5; }
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f; }
+  #menu li > a #menu form > button {
+    font-size: 18px;
+    font-weight: bold; }
+
+.carousel-inner {
+  max-height: 42rem; }

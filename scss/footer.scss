@@ -1,5 +1,51 @@
+$vista: desktop;
+$colors: (
+    primar: blueviolet, 
+    secondar: blue,
+    terciar: lightblue );
+$color: #fff;
+
+
+
 footer{
+    background-color: #3f3f3f;
+    min-height: 100px;
     p{
-        color: $active-color
+        color: $active-color;
+        text-align: center;
+    }
+    @if $vista == desktop{
+        .fs-5{
+        font-size: 1.25rem;
+        color: map-get($colors, terciar)!important
+        }
+    
+        .bi{
+            font-size: 30px !important;
+        }
+    }@else if $vista == mobile{
+        .fs-5{
+            font-size: 1.00rem;
+            color: map-get($colors, terciar)!important;
+        }
+        .bi{
+            font-size: 25px !important;
+        }
+    }@else{
+        .fs-5{
+            font-size: 1.25rem;}
+        }
+        .bi{
+            font-size: 30px !important;
     }
 }
+
+
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: f3f3f3;
+}
+
+

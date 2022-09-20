@@ -1,0 +1,73 @@
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    max-width: 500px;
+    #titulo-formulario{
+        color: #3f3f3f;
+    }
+    #titulo-formulario-contacto{
+        color: #f3f3f3;
+    }
+}
+
+.container{
+    padding: 30px;
+    .img_container{
+        margin: 1.5rem;
+    }
+}
+
+.producto_img{
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+
+}
+
+
+
+.btn{
+    border-radius: 7px;
+    border: none;
+    font-size: 1.3rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 1.5rem;
+}
+
+@mixin btn-style ($background, $typography){
+    background-color: $background;
+    color: $typography;
+}
+
+.producto_button-primary{
+    @extend .btn;
+    @include btn-style(blue,white);
+    &:hover{
+        background-color: #d2423f;
+    }
+
+}
+
+
+.producto_button-secondary{
+    @extend .btn;
+    background-color: red;
+    color: #f3f3f3;
+    &:hover{
+        background-color: #219F94;
+    }
+
+}
+
+.producto_button button{
+    @extend .btn;
+    @include btn-style(#219F94,white);
+    &:hover{
+        background-color: #3f3f3f;
+    }
+}
+
