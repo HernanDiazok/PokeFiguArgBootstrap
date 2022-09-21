@@ -1,8 +1,8 @@
 $vista: desktop;
 $colors: (
     primar: blueviolet, 
-    secondar: blue,
-    terciar: lightblue );
+    secondar: white,
+    terciar: lightblue);
 $color: #fff;
 $ancho: 18px;
 
@@ -50,6 +50,12 @@ body {
     margin-left: 50px;
     padding-top: 50px;
     text-align: center;
+
+#formulario{
+        width: 100%;
+        margin: auto;
+        padding-top: 50px;
+}
 }
 
 @media screen and (max-width: 1200px){
@@ -62,6 +68,8 @@ body {
         margin: auto;
         padding-top: 50px;
     }
+
+
 }
 
 
@@ -98,7 +106,6 @@ body {
     background-size: cover;
 }
 }
-
 
 
 #contenedor-formulario {
@@ -173,4 +180,5 @@ body {
         background-color: #3f3f3f;
     }
 }
+
 

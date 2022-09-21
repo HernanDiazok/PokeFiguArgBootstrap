@@ -1,5 +1,4 @@
 
-
 footer{
     background-color: #3f3f3f;
     min-height: 100px;
@@ -10,7 +9,7 @@ footer{
     @if $vista == desktop{
         .fs-5{
         font-size: 1.25rem;
-        color: map-get($colors, terciar)!important
+        color: map-get($colors, secondar)!important
         }
     
         .bi{
@@ -19,7 +18,7 @@ footer{
     }@else if $vista == mobile{
         .fs-5{
             font-size: 1.00rem;
-            color: map-get($colors, terciar)!important;
+            color: map-get($colors, secondar)!important;
         }
         .bi{
             font-size: 25px !important;
@@ -38,7 +37,7 @@ footer{
 #iconos i{
     font-size: 26px;
     padding: 0 8px;
-    color: f3f3f3;
+    color: #f3f3f3;
 }
 
 
